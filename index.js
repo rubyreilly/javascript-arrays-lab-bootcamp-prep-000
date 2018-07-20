@@ -20,13 +20,16 @@ function appendKitten(name){
 }
 
 function prependKitten(name){
-  
+  var prependKittens=[name,...kittens]
+  return prependKittens
 }
 
 function removeLastKitten(){
-  
+  var sliceLastKittens= kittens.slice(0,kittens.length-1)
+  return sliceLastKittens
 }
 
 function removeFirstKitten(){
-  
+  var sliceFirstKittens=kittens.slice(1)
+  return sliceFirstKittens
 }
