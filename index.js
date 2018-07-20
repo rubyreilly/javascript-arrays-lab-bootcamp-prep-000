@@ -1,5 +1,6 @@
 function destructivelyAppendKitten(name){
-  
+  newArray= array.push(name)
+  return newArray
   
 }
 
